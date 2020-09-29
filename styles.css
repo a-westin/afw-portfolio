@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.navbar-brand {
+  font-family: "Monoton", cursive;
+  font-size: 45px;
+}
+
+.nav-item {
+  font-family: "Poiret One", cursive;
+  font-size: x-large;
+}
+
+.header {
+  font-family: "Poiret One", cursive;
+  color: black;
+  font-size: xx-large;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card {
+  height: 420px;
+  margin: 77px;
+  margin-left: 20px;
+  align-content: left;
+  background-color: rgba(245, 245, 245, 0.85);
+}
+
+.card-body {
+  opacity: 1;
+}
+
+.about-me {
+  margin-top: 3px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#portfolio {
+  margin-left: 20px;
+}
+
+#contact {
+  margin-left: 20px;
+  margin-top: 27px;
+}
+
+#contact-header {
+  text-align: center;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  height: auto;
+  width: 100%;
+  margin-bottom: -50px;
+  background-size: 100% 100%;
+}
+
+#exampleMessageBox {
+  height: 60px;
+}
+
+.btn {
+  background-color: darkgreen;
+  border: none;
+  border-radius: 5%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  align-content: left;
+  opacity: 0.7;
+}
+
+.footer,
+.push {
+  height: 50px;
+  padding: 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  ...;
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  ...;
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  ...;
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+  ...;
+}
+
+/* @media only screen and (max-width: 480px) {
+      .col { 
+          margin: 1% 0 1% 0%;
+      } */
