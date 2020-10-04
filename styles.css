@@ -45,7 +45,7 @@ body {
 
 #contact {
   margin-left: 20px;
-  margin-top: 27px;
+  margin-top: 3px;
 }
 
 #contact-header {
@@ -56,15 +56,16 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.col-sm {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
 .wrapper {
   height: auto;
   width: 100%;
   margin-bottom: -50px;
   background-size: 100% 100%;
-}
-
-#exampleMessageBox {
-  height: 60px;
 }
 
 .btn {
@@ -93,21 +94,9 @@ body {
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
 }
 
-/* // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-}
-
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-}
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-} */
-
-
 @media only screen and (max-width: 576px) {
-      .col-xs { 
-          margin: 1% 0 1% 0%;
-          width: 50%;
-      }
+  .container-sm {
+    margin: 1% 0 1% 0%;
+    width: 50%;
+  }
+}
