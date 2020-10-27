@@ -13,15 +13,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans&=family=Abril+Fatface&family=Poiret+One&display=swap" rel="stylesheet">  </head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans&=family=Abril+Fatface&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
   <body
-    style="background-image: url(./Assets/big-cat-tiger-and-jungle-leaf-pattern-wallpaper-mural-Plain.webp)"
+    style="
+      background-image: url(./Assets/big-cat-tiger-and-jungle-leaf-pattern-wallpaper-mural-Plain.webp);
+    "
     class="background-image"
   ></body>
+  <!-- Navbar -->
   <div class="wrapper">
     <div class="push"></div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar-bg">
-      <a class="navbar-brand" href="#" style="color: darkgreen;">Amanda &nbsp; Fici &nbsp; Westin</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#" style="color: darkgreen"
+        >Amanda &nbsp; Fici &nbsp; Westin</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -36,55 +45,125 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="#about-me">Who</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#portfolio">What</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="#contact">Where</a>
           </li>
         </ul>
       </div>
     </nav>
   </div>
-  <div class="row">
-    <div class="col-xs"></div>
-  </div>
-    <div class="container-sm"></div>
-    <div class="card" style="width: 40rem"> 
-      <div class="card-body">
-        <div class="text-center">
-          <header class="header">About Me</header>
-          <div class="about-me">
+
+  <!-- First Container -->
+  <div class="body-container">
+    <div class="container-fluid bg-1 text-center">
+      <img
+        src="./Assets/PaulandAmandaWedding-332 copy.jpg"
+        class="img-responsive img-circle margin"
+        style="display: inline"
+        alt="profile picture"
+        width="425"
+        height="400"
+      />
+    </div>
+
+    <!-- Second Container -->
+    <div class="container-fluid container-bg text-center" id="about-me">
+      <h3 class="margin">Who &nbsp; I&nbsp; am</h3>
+      <p>
+        I am currently a full-time online student in Trilogy's Full Stack Flex
+        bootcamp program, hosted through Georgia Institute of Technology. While
+        I did not have prior experience in web development, I am a highly
+        motivated individual as well as a naturally adept problem-solver; these
+        qualities account for two very important characteristics of any
+        qualified candidate, but are especially critical for a web developer. I
+        will continue to update this website as I progress through the program
+        and add projects as I complete them.
+      </p>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid container-bg text-center" id="portfolio">
+      <h3 class="margin">What &nbsp; I've &nbsp; built &nbsp;</h3>
+      <br />
+      <div class="row">
+        <div class="col-sm-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img
+            src="birds1.jpg"
+            class="img-responsive margin"
+            style="width: 55%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img
+            src="birds2.jpg"
+            class="img-responsive margin"
+            style="width: 55%"
+            alt="Image"
+          />
+        </div>
+        <div class="col-sm-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img
+            src="birds3.jpg"
+            class="img-responsive margin"
+            style="width: 55%"
+            alt="Image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Container (Grid) -->
+    <div class="container-fluid container-bg text-center" id="contact">
+      <h3 class="margin">Where &nbsp; to &nbsp; find &nbsp; me</h3>
+      <br />
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="https://github.com/a-westin">
             <img
-              class="float-left mr-2 mb-2"
-              height="200"
-              width="200"
-              src="./Assets/profile-pic copy.jpg"
-              alt="Profile Picture"
+              src="./Assets/GitHub-Mark.png"
+              class="img-responsive margin"
+              style="width: 55%"
+              alt="Image"
             />
-            <p>
-              I am currently a full-time online student in Trilogy's Full Stack
-              Flex bootcamp program, hosted through Georgia Institute of
-              Technology. While I did not have prior experience in web
-              development, I am a highly motivated individual as well as a
-              naturally adept problem-solver; these qualities account for two
-              very important characteristics of any qualified candidate, but are
-              especially critical for a web developer.
-            </p>
-            <p>
-              I plan to update this website as I progress through the program
-              and will make my projects public once they are completed. In the
-              meantime, feel free to reach out on the Contact page, or connect
-              with me on
-              <a href="https://www.linkedin.com/in/amanda-fici-7619ab1b1/" target="_blank">LinkedIn</a> or
-              <a href="https://github.com/a-westin" target="_blank">GitHub.</a>
-              Otherwise, please drop me a line at (404)625-6564 or amanda.fici@gmail.com.
-              <br/> 
-              You can also view my resume <a href="./Assets/afw.resume.pdf" target="_blank">here.</a>
-            </p>
-          </div>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="https://www.linkedin.com/in/amanda-fici-7619ab1b1/">
+            <img
+              src="./Assets/linkedin-logo.png"
+              class="img-responsive margin"
+              style="width: 55%"
+              alt="Image"
+            />
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="./Assets/afw.resume.pdf">
+            <img
+              src="./Assets/user-icon-female-person-symbol-profile-avatar-sign-vector-18991898.jpg"
+              class="img-responsive margin"
+              style="width: 55%"
+              alt="Image"
+            />
+          </a>
         </div>
       </div>
     </div>

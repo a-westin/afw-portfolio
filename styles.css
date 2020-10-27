@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  background-repeat: repeat-y;
 }
 
 .navbar-brand {
@@ -12,6 +13,7 @@ body {
 .nav-item {
   font-family: "Poiret One", cursive;
   font-size: x-large;
+  color: rgb(59, 82, 44);
 }
 
 .header {
@@ -54,6 +56,7 @@ body {
 
 .nav-link {
   font-family: "Open Sans", sans-serif;
+  color: #000;
 }
 
 .col-sm {
@@ -69,7 +72,6 @@ body {
 }
 
 .btn {
-  background-color: darkgreen;
   border: none;
   border-radius: 5%;
   font-family: "Open Sans", sans-serif;
@@ -78,7 +80,22 @@ body {
   opacity: 0.7;
 }
 
-.footer,
+.footer {
+  height: 50px;
+  padding: 12px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: gray;
+  font-weight: bolder;
+  background-color: white;
+  opacity: 0.65;
+}
+
 .push {
   height: 50px;
   padding: 12px;
@@ -92,6 +109,65 @@ body {
   font-weight: bold;
   color: white;
   text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+}
+
+.body-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+h3 {
+  font-family: "Monoton", cursive;
+  color: darkgreen;
+  font-size: 45px;
+}
+
+p {
+  font-size: 16px;
+}
+.margin {
+  margin-bottom: 45px;
+}
+
+.bg-1 {
+  color: #ffffff;
+  min-height: 95vh;
+}
+.container-bg {
+  color: gray;
+  background-color: #ffffff;
+  max-width: 40%;
+  border-radius: 1%;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000;
+  margin-top: 15vh;
 }
 
 @media only screen and (max-width: 576px) {
