@@ -4,7 +4,7 @@ I made changes to the overall styling of my portfolio website using Bootstrap an
 
 ## Installation
 
-No installation is necessary; view the website by clicking on this [link.](a-westin.github.io/afw-portfolio)
+No installation is necessary; view the website by clicking on this [link.](https://a-westin.github.io/afw-portfolio/)
 
 ## Screenshots 
 
