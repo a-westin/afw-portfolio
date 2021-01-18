@@ -47,6 +47,11 @@ body {
   margin-bottom: 40vh;
 }
 
+.portfolio-img {
+  width: 100vw;
+  height: 50vh;
+}
+
 #contact {
   margin-top: auto;
   margin-bottom: 23vh;
