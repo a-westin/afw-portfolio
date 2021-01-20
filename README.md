@@ -4,9 +4,9 @@ Please visit my site by clicking this [link.](https://a-westin.github.io/afw-por
 
 ## Screenshots 
 
-![Screen Shot 2021-01-19 at 7 18 59 PM](https://user-images.githubusercontent.com/69770137/105109842-5a7c9480-5a8b-11eb-9d12-c007d2c4c989.png). 
+![Screen Shot 2021-01-19 at 7 18 59 PM](https://user-images.githubusercontent.com/69770137/105109842-5a7c9480-5a8b-11eb-9d12-c007d2c4c989.png) 
 
-![Screen Shot 2021-01-19 at 7 19 15 PM](https://user-images.githubusercontent.com/69770137/105109856-5ea8b200-5a8b-11eb-887d-ba75af5daa04.png). 
+![Screen Shot 2021-01-19 at 7 19 15 PM](https://user-images.githubusercontent.com/69770137/105109856-5ea8b200-5a8b-11eb-887d-ba75af5daa04.png) 
 
 
 #### License
