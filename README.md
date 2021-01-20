@@ -1,19 +1,12 @@
-# Updated Portfolio 
+# Portfolio 
 
-I made changes to the overall styling of my portfolio website using Bootstrap and Google Fonts. 
-
-## Installation
-
-No installation is necessary; view the website by clicking on this [link.](https://a-westin.github.io/afw-portfolio/)
+Please visit my site by clicking this [link.](https://a-westin.github.io/afw-portfolio/)
 
 ## Screenshots 
 
+![Screen Shot 2021-01-19 at 7 18 59 PM](https://user-images.githubusercontent.com/69770137/105109842-5a7c9480-5a8b-11eb-9d12-c007d2c4c989.png)
 
-![Screen Shot 2020-10-04 at 8 46 50 PM](https://user-images.githubusercontent.com/69770137/95031247-f7552680-0682-11eb-8da2-342deff39a3d.png)
-
-![Screen Shot 2020-10-04 at 8 47 19 PM](https://user-images.githubusercontent.com/69770137/95031250-fde39e00-0682-11eb-84e6-a7d9859d556d.png)
-
-![Screen Shot 2020-10-04 at 8 47 36 PM](https://user-images.githubusercontent.com/69770137/95031251-01772500-0683-11eb-9e58-325d8ee6faf9.png)
+![Screen Shot 2021-01-19 at 7 19 15 PM](https://user-images.githubusercontent.com/69770137/105109856-5ea8b200-5a8b-11eb-887d-ba75af5daa04.png)
 
 
 #### License
